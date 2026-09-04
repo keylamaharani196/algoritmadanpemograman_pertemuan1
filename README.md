@@ -182,12 +182,15 @@ Jenis segitiga: Segitiga Sama Sisi
 
 ### Pengujian Segitiga Sama Sisi
 
-Input:
+**Input:**
 - Sisi A = 6
 - Sisi B = 6
 - Sisi C = 6
 
-Output:
+**Output:**
+
 ```text
 Jenis segitiga: Segitiga Sama Sisi
 ```
+
+Hasil pengujian menunjukkan bahwa ketika sisi A, sisi B, dan sisi C memiliki panjang yang sama, program menghasilkan **Segitiga Sama Sisi**.

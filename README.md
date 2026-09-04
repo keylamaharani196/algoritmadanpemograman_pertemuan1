@@ -165,3 +165,15 @@ else:
 # Output
 print("Jenis segitiga:", jenis)
 ```
+
+## 7. Hasil Pengujian
+
+### Pengujian 1
+Input:
+- Sisi A = 6
+- Sisi B = 6
+- Sisi C = 6
+
+Output:
+```text
+Jenis segitiga: Segitiga Sama Sisi

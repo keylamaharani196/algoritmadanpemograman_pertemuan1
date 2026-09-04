@@ -121,4 +121,22 @@ Segitiga Sama Sisi
 
 ## 5. Flowchart
 
-![Flowchart Menentukan Jenis Segitiga](flowchart_jenis_segitiga.png)
+```mermaid
+flowchart TD
+    A([MULAI]) --> B[/Masukkan sisi A/]
+    B --> C[/Masukkan sisi B/]
+    C --> D[/Masukkan sisi C/]
+
+    D --> E{Apakah A = B<br/>dan B = C?}
+
+    E -- YA --> F[Segitiga<br/>Sama Sisi]
+    E -- TIDAK --> G{Apakah A = B<br/>atau A = C<br/>atau B = C?}
+
+    G -- YA --> H[Segitiga<br/>Sama Kaki]
+    G -- TIDAK --> I[Segitiga<br/>Sembarang]
+
+    F --> J[/Tampilkan jenis segitiga/]
+    H --> J
+    I --> J
+
+    J --> K([SELESAI])

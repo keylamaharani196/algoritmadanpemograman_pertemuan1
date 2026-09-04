@@ -166,6 +166,7 @@ Segitiga Sama Sisi
                     ┌─────────────┐
                     │   SELESAI   │
                     └─────────────┘
+
 ## 6. Implementasi Python
 
 Program dibuat menggunakan bahasa pemrograman Python untuk menentukan jenis segitiga berdasarkan panjang ketiga sisinya.

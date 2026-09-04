@@ -177,3 +177,9 @@ Input:
 Output:
 ```text
 Jenis segitiga: Segitiga Sama Sisi
+
+## 8. Kesimpulan
+
+Berdasarkan tugas yang telah dibuat, dapat disimpulkan bahwa program Python dapat digunakan untuk menentukan **Segitiga Sama Sisi** berdasarkan panjang ketiga sisinya. Jika sisi A, sisi B, dan sisi C memiliki panjang yang sama, maka program akan menampilkan hasil **"Segitiga Sama Sisi"**.
+
+Melalui tugas ini, dapat dipahami penerapan algoritma, pseudocode, flowchart, dan bahasa pemrograman Python dalam menyelesaikan permasalahan secara sistematis.

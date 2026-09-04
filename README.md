@@ -42,3 +42,40 @@ Setelah proses perbandingan selesai, program akan menampilkan **jenis segitiga**
 **Output**
 
 * Menampilkan jenis segitiga berdasarkan panjang sisi A, B, dan C.
+
+## 3. Pseudocode
+
+### Algoritma Menentukan Jenis Segitiga Berdasarkan Panjang Sisinya
+
+```text
+BEGIN
+
+    INPUT sisiA
+    INPUT sisiB
+    INPUT sisiC
+
+    IF sisiA = sisiB AND sisiB = sisiC THEN
+        jenis ← "Segitiga Sama Sisi"
+
+    ELSE IF sisiA = sisiB OR sisiA = sisiC OR sisiB = sisiC THEN
+        jenis ← "Segitiga Sama Kaki"
+
+    ELSE
+        jenis ← "Segitiga Sembarang"
+
+    END IF
+
+    OUTPUT jenis
+
+END
+```
+
+### Penjelasan
+
+1. Program meminta pengguna memasukkan panjang **sisi A**, **sisi B**, dan **sisi C**.
+2. Program memeriksa apakah ketiga sisi memiliki panjang yang sama.
+3. Jika ketiga sisi sama, maka hasilnya adalah **Segitiga Sama Sisi**.
+4. Jika tidak, program memeriksa apakah terdapat dua sisi yang memiliki panjang sama.
+5. Jika terdapat dua sisi yang sama, maka hasilnya adalah **Segitiga Sama Kaki**.
+6. Jika ketiga sisi berbeda, maka hasilnya adalah **Segitiga Sembarang**.
+7. Program menampilkan jenis segitiga sebagai output.

@@ -85,9 +85,9 @@ END
 ### Input
 
 ```text
-Sisi A = 5 cm
-Sisi B = 5 cm
-Sisi C = 5 cm
+Sisi A = 6 cm
+Sisi B = 6 cm
+Sisi C = 6 cm
 ```
 
 ### Proses
@@ -96,10 +96,10 @@ Karena:
 
 ```text
 Sisi A = Sisi B
-5 = 5
+6 = 6
 
 Sisi B = Sisi C
-5 = 5
+6 = 6
 ```
 
 Maka ketiga sisi memiliki panjang yang sama.
@@ -114,7 +114,7 @@ Segitiga Sama Sisi
 
 | Input  |              Nilai |
 | ------ | -----------------: |
-| Sisi A |               5 cm |
-| Sisi B |               5 cm |
-| Sisi C |               5 cm |
+| Sisi A |               6 cm |
+| Sisi B |               6 cm |
+| Sisi C |               6 cm |
 | Hasil  | Segitiga Sama Sisi |

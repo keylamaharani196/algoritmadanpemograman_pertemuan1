@@ -126,18 +126,20 @@ flowchart TD
     A([MULAI]) --> B[/Masukkan sisi A/]
     B --> C[/Masukkan sisi B/]
     C --> D[/Masukkan sisi C/]
+    D --> E{A = B dan B = C?}
 
-    D --> E{Apakah A = B<br/>dan B = C?}
+    E -- YA --> F[Segitiga Sama Sisi]
+    E -- TIDAK --> G{A = B atau A = C atau B = C?}
 
-    E -- YA --> F[Segitiga<br/>Sama Sisi]
-    E -- TIDAK --> G{Apakah A = B<br/>atau A = C<br/>atau B = C?}
-
-    G -- YA --> H[Segitiga<br/>Sama Kaki]
-    G -- TIDAK --> I[Segitiga<br/>Sembarang]
+    G -- YA --> H[Segitiga Sama Kaki]
+    G -- TIDAK --> I[Segitiga Sembarang]
 
     F --> J[/Tampilkan jenis segitiga/]
     H --> J
     I --> J
+
+    J --> K([SELESAI])
+```
 
 ## 6. Implementasi Python
 
@@ -163,5 +165,3 @@ else:
 # Output
 print("Jenis segitiga:", jenis)
 ```
-    J --> K([SELESAI])
-

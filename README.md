@@ -166,3 +166,24 @@ Segitiga Sama Sisi
                     ┌─────────────┐
                     │   SELESAI   │
                     └─────────────┘
+## 6. Implementasi Python
+
+```python
+# Program Menentukan Jenis Segitiga Berdasarkan Panjang Sisinya
+
+sisi_a = float(input("Masukkan panjang sisi A: "))
+sisi_b = float(input("Masukkan panjang sisi B: "))
+sisi_c = float(input("Masukkan panjang sisi C: "))
+
+# Proses menentukan jenis segitiga
+if sisi_a == sisi_b and sisi_b == sisi_c:
+    jenis = "Segitiga Sama Sisi"
+
+elif sisi_a == sisi_b or sisi_a == sisi_c or sisi_b == sisi_c:
+    jenis = "Segitiga Sama Kaki"
+
+else:
+    jenis = "Segitiga Sembarang"
+
+# Output
+print("Jenis segitiga:", jenis)

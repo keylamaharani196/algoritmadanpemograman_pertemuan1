@@ -139,8 +139,6 @@ flowchart TD
     H --> J
     I --> J
 
-    J --> K([SELESAI])
-
 ## 6. Implementasi Python
 
 Program dibuat menggunakan bahasa pemrograman Python untuk menentukan jenis segitiga berdasarkan panjang sisi A, sisi B, dan sisi C.
@@ -164,3 +162,6 @@ else:
 
 # Output
 print("Jenis segitiga:", jenis)
+```
+    J --> K([SELESAI])
+

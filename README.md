@@ -178,6 +178,10 @@ Output:
 ```text
 Jenis segitiga: Segitiga Sama Sisi
 
+```text
+Jenis segitiga: Segitiga Sama Sisi
+```
+
 ## 8. Hasil Pengujian
 
 ### Pengujian Segitiga Sama Sisi

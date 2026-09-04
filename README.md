@@ -79,3 +79,42 @@ END
 5. Jika terdapat dua sisi yang sama, maka hasilnya adalah **Segitiga Sama Kaki**.
 6. Jika ketiga sisi berbeda, maka hasilnya adalah **Segitiga Sembarang**.
 7. Program menampilkan jenis segitiga sebagai output.
+
+## 4. Test Case 1
+
+### Input
+
+```text
+Sisi A = 5 cm
+Sisi B = 5 cm
+Sisi C = 5 cm
+```
+
+### Proses
+
+Karena:
+
+```text
+Sisi A = Sisi B
+5 = 5
+
+Sisi B = Sisi C
+5 = 5
+```
+
+Maka ketiga sisi memiliki panjang yang sama.
+
+### Hasil yang Diharapkan
+
+```text
+Segitiga Sama Sisi
+```
+
+### Tabel Test Case
+
+| Input  |              Nilai |
+| ------ | -----------------: |
+| Sisi A |               5 cm |
+| Sisi B |               5 cm |
+| Sisi C |               5 cm |
+| Hasil  | Segitiga Sama Sisi |
